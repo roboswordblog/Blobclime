@@ -38,5 +38,10 @@ class Server:
             thread.start()
             self.playerConnect += 1
 
+class ConnServer(Server):
+    def __init__(self): 
+        
+
 class ServerHandler:
     pass
+
